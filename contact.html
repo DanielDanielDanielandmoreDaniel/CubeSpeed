@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="eng">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+	<link rel="icon" href="icons/logo.ico" alt="Cube Speed Logo">
+	<title>CubeSpeed NZ</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a class="inverse" href="contact.html">Contact</a></li>
+				<li><a href="club.html">Club</a></li>
+				<li><a href="sponsor.html">Sponsors</a></li>
+			</ul>
+			<div class="logo">
+				<a href="index.html"><img src="icons/speed.png" alt="Large Cube Speed Logo"></a>
+			</div>
+			<div class="search-cart">
+				<div class="search"><img src="icons/search.png" alt="Magnifying glass icon"></div>
+				<div class="cart"><img src="icons/cart.png" alt="Cart icon"></div>
+			</div>
+		</nav>
+	</header>
+		<p class="banner" style= "background-color: #6699CC; font-size: 3vw; margin-bottom: 20px;">Frequently Asked Questions!</p>
+
+	<button class="accordion">Is there an IRl store I can come visit?</button>
+		<div class="panel">
+			<p>Sadly not anymore :( We used to set up shop in Lttelton, but due to Covid19 ruining shipping, we had to make the hard decision to close the store for the forseeable future.</p>
+		</div>
+
+	<button class="accordion">Are the competitions at the clubs official?</button>
+		<div class="panel">
+			<p>No. Though we do have a website and keep track of everyone's times and our own NZ records. If you happen to break the world record at a club, it is no more than simply bragging rights throughout the country.</p>
+		</div>
+		
+	<button class="accordion">How to I go to an official competition?</button>
+		<div class="panel">
+			<p>This is done through the official WCA website.</p>
+		</div>
+		
+	<button class="accordion">How fast do I have to be to come to the club?</button>
+		<div class="panel">
+			<p>We encourage any level cubers to come to the club! (Though, the timers do reset after 10mins) If you can confidently solve the cube in under 3minutes, you are more than welcome to show off your talent at the cube club closest to you!</p>
+		</div>
+		
+	<button class="accordion">Where best do I learn how to solve the cube?</button>
+		<div class="panel">
+			<p>There are no bad places to learn these days. But if you are looking for a recomendation the youtuber Jperm is always a good choice. Being an amazing speedcuber and one of the biggest cubing tutorial channels, his tutorials are always easy to follow.</p>
+		</div>
+		
+	<button class="accordion">How do I get sponsored?</button>
+		<div class="panel">
+			<p>To get sponsored by cubespeed.co.nz, you must be the best of the best. The main criteria are your national rank, and how experienced you are as a competditor. If you can consistantly get good times in competition, you might catch the attention of the people who are already sponsored, and ultimately they are the final decision makers.</p>
+		</div>
+		
+	<button class="accordion">How do I sign up for a club meetup?</button>
+		<div class="panel">
+			<p>Simply click on <a href=https://www.speedcube.co.nz/collections/events>this link</a> to buy a ticket for next month's meetup.  They are $8 per person. (spectators welcome)</p>
+		</div>
+		
+	<button class="accordion">Where do the cubes get shipped from?</button>
+		<div class="panel">
+			<p>They all come from lyttleton, so expect your package to arrive in a couple of days if you are in the south island, and maybe up to a week for you northerners.</p>
+		</div>
+		
+	<button class="accordion">Do the more expensive cubes make me a better cuber?</button>
+		<div class="panel">
+			<p>Not as much as you would think. As long as you are not using a Rubik's brand, or a cube from 2012, you should be fine. The only reason we would suggest getting an upgrade is if your current cube isnt doing it for you and buying a new one would be motivation to practice. Because ultimately its the practice that will make you faster.</p>
+		</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.display === "block") {
+			panel.style.display = "none";
+			} else {
+			panel.style.display = "block";
+			}
+		});
+		}
+	</script>
+</body>
+
+<footer style="margin-top: 20px;">
+	<ul>
+		<li><a href="https://www.youtube.com/@HowToRubiksACube"><img class="wide" src="icons/youtube.png" alt="Youtube logo">YouTube</a></li>
+		<li><a href="https://www.instagram.com/howtorubiksacube/"><img src="icons/insta.png" alt="Instagram logo">Insta</a></li>
+		<li><a href="https://www.tiktok.com/en/"><img src="icons/tiktok.png" alt="TikTok logo">TikTok</a></li>
+		<li><a href="https://discord.com/"><img class="wide" src="icons/discord.png" alt="Discord logo">Discord</a></li>
+	</ul>
+	<div class="logof">
+		<a href="index.html"><img src="icons/logo.png" alt="square Cube Speed logo"></a>
+	</div>
+	<div class="contact">
+		<div class="txt"><u>Contact info!</u></div>
+		<div class="phone">Phone:<br>0221698581</div>
+		<div class="email">Email:<br>howtorubiksacube@gmail.com</div>
+	</div>
+</footer>
+
+</html>
