@@ -78,6 +78,29 @@ nav ul .inverse {
 	text-align: center;
 	font-family: 'Nova Square', cursive;
 }
+.CTA {
+	height: 8vw;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	background-color: #00008B;
+}
+
+
+.CTA a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Nova Square', cursive;
+	background-color: black;
+	border: outset white 3px;
+	padding: 1vw 3vw;
+	font-size: 2vw;
+	
+}
+
+.CTA a:hover {
+	border: inset white 3px;
+}
 
 .carousel {
 	margin: 50px auto;
